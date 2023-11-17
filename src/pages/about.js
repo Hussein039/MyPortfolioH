@@ -60,21 +60,22 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium">
-                  Hello, I'm <strong>Hussein</strong>, a skilled web developer dedicated to crafting visually stunning,
-                  functional, and user-centric digital experiences.
-                  I continually seek innovative approaches to bring my clients' visions to vibrant life.
-                </p>
-                <p className="my-4 font-medium">
-                  I firmly believe that design transcends mere aesthetics 
-                  – it's about solving challenges and
-                  fashioning instinctive, delightful experiences for users.
-                </p>
-                <p className="font-medium">
-                  Whether I'm immersed in website, mobile app, or other digital product development,
-                  I infuse each project with my unwavering commitment to design excellence and user-focused
-                  perspective. I eagerly anticipate the opportunity to contribute my skills and enthusiasm
-                  to your upcoming venture.
-                </p>
+  Hello, I&apos;m <strong>Hussein</strong>, a skilled web developer dedicated to crafting visually stunning,
+  functional, and user-centric digital experiences.
+  I continually seek innovative approaches to bring my clients&apos; visions to vibrant life.
+</p>
+<p className="my-4 font-medium">
+  I firmly believe that design transcends mere aesthetics 
+  it&apos;s about solving challenges and
+  fashioning instinctive, delightful experiences for users.
+</p>
+<p className="font-medium">
+  Whether I&apos;m immersed in website, mobile app, or other digital product development,
+  I infuse each project with my unwavering commitment to design excellence and user-focused
+  perspective. I eagerly anticipate the opportunity to contribute my skills and enthusiasm
+  to your upcoming venture.
+</p>
+
 
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
