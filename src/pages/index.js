@@ -7,6 +7,10 @@ import Image from "next/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import TransitionEffect from "@/components/TransitionEffect";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import Projects from "./projects";
 
 
 export default function Home() {
@@ -25,7 +29,7 @@ export default function Home() {
 
       <TransitionEffect />
       <article
-        className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start`}
+        className={` min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex w-full items-start justify-between md:flex-col">
@@ -73,6 +77,10 @@ export default function Home() {
         </Layout>
 
         <HireMe />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
       </article>
     </>
   );
