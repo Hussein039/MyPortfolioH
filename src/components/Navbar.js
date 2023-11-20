@@ -12,6 +12,7 @@ import {
 import { motion } from "framer-motion";
 import { useThemeSwitch } from "./Hooks/useThemeSwitch";
 
+
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
 
@@ -30,6 +31,9 @@ const CustomLink = ({ href, title, className = "" }) => {
     </Link>
   );
 };
+
+
+
 
 const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   const router = useRouter();
@@ -68,7 +72,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="w-full flex items-center justify-between px-32 py-8 font-medium z-10 dark:text-light
+    <header className="w-full  flex items-center justify-between px-32 py-8 font-medium z-10 dark:text-light
     lg:px-16 relative z-1 md:px-12 sm:px-8
     ">
       
@@ -92,10 +96,10 @@ const Navbar = () => {
         <CustomLink className="mx-4" href="/about" title="About" />
         <CustomLink className="mx-4" href="/projects" title="Projects" />
         <Link
-  href="/public/Hussein Resumedocx.docx"
-  target="_blank"
-  className={`erline-offset-2  w-6 h-6  inline-block`}
-  download
+          href="/Hussein%20Resumedocx.docx"
+          target="_blank"
+          className={`erline-offset-2  w-6 h-6  inline-block`}
+          download="Hussein_Resumedocx.docx" 
 >
   <span className="relative flex h-3 w-3">
     <span className="animate-ping absolute left-16 inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>

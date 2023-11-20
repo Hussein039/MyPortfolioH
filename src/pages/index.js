@@ -19,24 +19,17 @@ export default function Home() {
     <>
       <Head>
         <title>Hussein Portfolio</title>
-        <meta
-          name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
-        />
       </Head>
 
       <TransitionEffect />
       <article
-        className={` min-h-screen items-center text-dark dark:text-light sm:items-start`}
+        className={`  min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
-        <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
+        <Layout className="mt-20 !pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex w-full items-start justify-between md:flex-col">
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
@@ -52,14 +45,14 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="/public/Hussein Resumedocx.docx"
+                  href="/Hussein%20Resumedocx.docx"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                   capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
                   dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
                   md:p-2 md:px-4 md:text-base
                 `}
-                  download
+                download="Hussein_Resumedocx.docx" 
                 >
                   Resume <LinkArrow className="ml-1 !w-6 md:!w-4" />
                 </Link>

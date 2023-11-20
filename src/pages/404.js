@@ -10,12 +10,7 @@ const NotFound = () => {
     <>
       <Head>
         <title> Portfolio Built with Nextjs | 404 Page </title>
-        <meta
-          name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
-        />
+
       </Head>
       <TransitionEffect />
       <main className="h-[75vh] w-full dark:bg-dark ">
